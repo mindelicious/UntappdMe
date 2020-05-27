@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  UntappdMe
+
+  Created by Matt on 19/05/2020.
+  Copyright © 2020 mindelicious. All rights reserved.
+*/
+
+
+"connection_error" = "Connection Error";
+"check_network_message" = "Check your network";
+"you_will_open" = "You will open ";
+"this_brewery_dont_have" = "This Brewery don't have ";
+
+"country" = "Country: %@";
+"city" = "City: %@";
+
+"you_got_limit_of_favourites" = "You got limit of saving favourites beers %d";
+
+"somethings_go_wrong" = "Somethings go wrong, please try again";
