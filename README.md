@@ -3,7 +3,7 @@
 
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 
-## What?
+## Description
   - Type Username from Untappd.
   - See last 25 checked in beers.
   - Add beer to favourite. 
@@ -16,7 +16,7 @@ Install the pods.
 $ pod install
 ```
 
-Client ID and Client Secret
+You need to fill Client ID and Client Secret in Networking/Configuration
 
 ```Swift
 clientId = //get client id from Untappd
@@ -32,7 +32,7 @@ Loading animation
 ![](readmematerials/loading.png)
 
 Empty list
-![](readmematerials/beerlist.jpg)
+![](readmematerials/emptylist.jpg)
 
 
 License
