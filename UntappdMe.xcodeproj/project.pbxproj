@@ -31,6 +31,7 @@
 		C9B612C8246E5EFD0029C6BD /* BeerDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B612C7246E5EFD0029C6BD /* BeerDetail.storyboard */; };
 		C9B612CA246E5F0F0029C6BD /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B612C9246E5F0F0029C6BD /* BeerDetailViewController.swift */; };
 		C9C3A73A247D434400EF483C /* BeerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C3A739247D434400EF483C /* BeerCell.xib */; };
+		C9CCEDF924891ADD00AD23F9 /* ViewControllerExtenisons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCEDF824891ADD00AD23F9 /* ViewControllerExtenisons.swift */; };
 		C9EDC14D2476643C005929BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDC14C2476643C005929BC /* Constants.swift */; };
 		C9EF8B84246BAE3C00C2BA78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF8B83246BAE3C00C2BA78 /* AppDelegate.swift */; };
 		C9EF8B86246BAE3C00C2BA78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF8B85246BAE3C00C2BA78 /* SceneDelegate.swift */; };
@@ -69,6 +70,7 @@
 		C9B612C7246E5EFD0029C6BD /* BeerDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeerDetail.storyboard; sourceTree = "<group>"; };
 		C9B612C9246E5F0F0029C6BD /* BeerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
 		C9C3A739247D434400EF483C /* BeerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerCell.xib; sourceTree = "<group>"; };
+		C9CCEDF824891ADD00AD23F9 /* ViewControllerExtenisons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtenisons.swift; sourceTree = "<group>"; };
 		C9EDC14C2476643C005929BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C9EF8B80246BAE3C00C2BA78 /* UntappdMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UntappdMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EF8B83246BAE3C00C2BA78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				C92397E92473902E00A8F36D /* StringExtensions.swift */,
+				C9CCEDF824891ADD00AD23F9 /* ViewControllerExtenisons.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				C973C3B3246C19E200B7923B /* Beers.swift in Sources */,
 				C9B612C1246D73040029C6BD /* BeerResponse.swift in Sources */,
 				C9B612CA246E5F0F0029C6BD /* BeerDetailViewController.swift in Sources */,
+				C9CCEDF924891ADD00AD23F9 /* ViewControllerExtenisons.swift in Sources */,
 				C973C3B5246C1BB400B7923B /* Brewery.swift in Sources */,
 				C96546BC247653BC00A1E003 /* FavouritesManager.swift in Sources */,
 				C92397F12473952900A8F36D /* NetworkManager.swift in Sources */,

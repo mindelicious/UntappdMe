@@ -33,6 +33,7 @@ class SearchViewController: UIViewController {
         super.viewWillAppear(animated)
         tabBarController?.tabBar.isHidden = false
         tableView.reloadData()
+        hideKeyboardWhenTappedAround()
     }
     
 // MARK: - Networking
@@ -127,6 +128,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "BeerCell", bundle: nil), forCellReuseIdentifier: "beerCell")
+        tableView.keyboardDismissMode = .onDrag
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -151,10 +153,6 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         beerDetailViewController.beer = item.beer
         beerDetailViewController.brewery = item.brewery
         navigationController?.pushViewController(beerDetailViewController, animated: true)
-    }
-   
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        self.view.endEditing(true)
     }
     
 }
